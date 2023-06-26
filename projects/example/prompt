@@ -1,1 +1,31 @@
-We are writing snake in python. MVC components split in separate files. Keyboard control.
+Build a flask web application gpt-3.5-turbo powered chatbot using python flask python-dotenv openaiand stripe. Always use python=dotenv and the .env file for api.  The web app has 5 pages, home.html which will be a chat interface powered by chat-gpt.  The seond page is an about.html, containing a discription about the web app and the api's used.  The page is accessed by a button called about in the top left of home.html  The 3rd page is a payments page, accessed by a button called account in the top right of home.html. The payments page will consist of 3 buttons evenly spaced 6cm down from the top the page.  The buttons will be called basic, mid and premium and represent 3 account types the user can create.  basic is free, mid is $2 AUD/ month and premium is $5 AUD per month.  Below the buttons will the stripe payment field to enter card details.  When mid or premium buttons are pressed, the change the charge amount to the corosponding $value.  When basic is pressed, the user is taken to an account page called accounts.html.  This page will enable users to create an account for free using an email and password.  create the necessary files and add python modules to acheive this.  The css styles will be stored in static/css/styles.css.  the style of the web app is sleek dark theme using greys and other dark colours.  all buttons and chat forms will  use border-radius for smooth rounded edges.
+
+The folder structure of the project will be this
+
+/Flask-gptengineer-test
+  /static
+    /audio
+    /css
+      styles.css
+    /js
+  /templates
+    home.html
+    payments.html
+    about.html
+    accounts.html
+  app.py
+  requirements.txt
+  README.md
+  .env
+  .gitignore
+ 
+
+ This is the .env file
+
+OPENAI_API_KEY=sk-myactualkey
+ELEVENLABS_API_KEY=myactualkey
+STRIPE_API_KEY=myactualkey
+
+
+ 
+ 

@@ -1,3 +1,12 @@
+To activate this environment, use
+ $ conda activate gptengineerenv
+To deactivate an active environment, use
+  $ conda deactivate
+
+
+
+
+
 # GPT Engineer
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/8tcDQ89Ej2?style=flat)](https://discord.gg/8tcDQ89Ej2)
